@@ -1,0 +1,409 @@
+
+.nav{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: space-around;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 8%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.045) ;
+}
+
+.logo{
+    width: 140px;
+    cursor: pointer;
+}
+
+.nav-list ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list ul li{
+    padding-right: 2.5rem;
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-list ul li a{
+    text-decoration: none;
+    color: rgba(1, 1, 1, 0.5);
+}
+
+.nav-list ul li a:hover{
+    color: #0070BB;
+}
+
+
+.first {
+    height: 100vh;
+}
+
+.first , .second{   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landing-img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.first h2 {
+    font-size: 3rem;
+    margin:  4rem 0 0 0;
+    color: rgba(0, 0, 0, 0.7);
+}
+.first p{
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 1rem;
+}
+
+.landing-img img{
+    width: 60rem;
+}
+
+.page-button{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: white;
+    align-items: center;
+    background-color: #0070bbef;
+    border: 0;
+    border-radius: 3px;
+    padding: 0.8rem 2rem;
+    font-weight: 400;
+    width: 12rem;
+    cursor: pointer;
+}
+.page-button:hover{
+    background-color: rgba(0, 0, 0, 0.813);
+}
+
+.economic{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+    margin-bottom: 7rem;
+}
+
+.economic-img img{
+    width: 420px;
+}
+
+.economin-list {
+    display: flex;
+}
+
+.economin-list ul li{
+    margin-bottom: 0.7rem;
+    font-size: 1.15rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+
+.econimic-banner{
+    width: 500px;
+}
+
+.economic-text{
+    margin-left: 1rem;
+    width: 40%;
+}
+
+.economic-text h2{
+    font-size: 2.15rem;
+    margin-bottom: 1.4rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+.economic-text p{
+    text-wrap: wrap;
+    font-size: 1.2rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+
+.universe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.universe-img img{
+    width: 900px;
+    cursor: pointer;
+}
+.universe-links ul {
+    display: flex;
+    padding: 1rem;
+}
+.universe-links ul li {
+    list-style: none;
+    padding: 0 1.4rem;
+}
+.universe-links ul li a{
+
+    text-decoration: none;
+    font-size: 1.05rem;
+    color: #0070BB;
+}
+
+.universe-links ul li a:hover{
+    color: rgba(0, 0, 0, 0.638);
+}
+
+.universe p{
+    text-align: center;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.7);
+    text-wrap: wrap;
+    width: 37%;
+    line-height: 2rem;
+}
+.universe h2{
+    font-size: 2.3rem;
+    margin-bottom: 0.7rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+
+}
+
+.price-text{
+    width: 35%;
+}
+
+.price p{
+    font-size: 1.2rem;
+    text-wrap: wrap;
+    color: rgba(0, 0, 0, 0.7);
+   
+}
+
+.price h2{
+    margin-top: 0 ;
+    padding: 0;
+    font-size: 2.2rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.price a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #0070BB;
+   
+} 
+
+.price-table {
+    display: flex;
+    justify-content: center;
+    margin-left: -2rem;
+}
+
+.price-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   border-radius: 3px;
+    width: 29%;
+    padding:  0rem 2.5rem 1rem ;
+    border: 1px solid rgba(0, 0, 0, 0.332);
+}
+
+.price-box h2{
+    margin: 1.5rem 2rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.price-box p{
+    text-wrap: wrap;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.varsity{
+    display: flex;
+    padding-top:0 ;
+    margin-top: 7rem;
+    justify-content: space-evenly;
+}
+
+.varsity-img img{
+    width: 400px;
+    cursor: pointer;
+}
+
+.varsity-text{
+    width: 40%;
+    margin-left: 0rem;
+}
+
+.varsity-text h2{
+    font-size: 1.8rem;
+    margin-bottom: 1.6rem;
+    color: rgba(0, 0, 0, 0.7);
+    
+}
+
+.varsity-text a{
+    text-decoration: none;
+    color: #0070BB;
+    font-size: 1.15rem;
+}
+
+.varsity-text a:hover{
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.varsity-text p{
+    font-size: 1.15rem;
+    margin-bottom: 1.3rem;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+.second{
+    margin-top: 7rem ; 
+    margin-bottom: 6rem;
+}
+
+.second h2{
+    font-size: 2.2rem;
+    margin-bottom: 0.6rem;
+    color: rgba(0, 0, 0, 0.7);
+
+}
+
+.second p{
+    font-size: 1.2rem;
+    margin-bottom: 0.6rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.footer{
+    border-top: 0.5px solid rgba(0, 0, 0, 0.15);
+    height: 91vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: whitesmoke;
+    margin-bottom: 0;
+}
+.wrapper{
+    width: 72%;
+}
+
+.footer-columns{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+    align-items: start;
+    margin-bottom: 2rem;
+}
+
+.footer-prime {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin-right: -10rem;
+}
+
+.footer-prime p{
+    text-wrap: wrap;
+    font-size: 0.95rem;
+    width:70%;
+    letter-spacing: 0.2px;
+    line-height: 1.5rem;
+    color: rgba(39, 27, 27, 0.6);
+    margin-bottom: 0.5rem;
+}
+.footer-prime ul{
+    display: flex;
+    width:55%;
+    margin-left: -2rem;
+    justify-content:space-between;
+    
+}
+
+.footer-prime ul li{
+    list-style: none;
+
+}
+
+.footer-logo{
+    width: 150px;
+    
+}
+.footer-list{
+    margin-top: -1rem;
+}
+.footer-list:last-child{
+    margin-right: 8rem;
+}
+.footer-list-title{
+    font-size: 1.2rem;
+}
+
+.footer-list ul li{
+    list-style: none;
+    margin-bottom: 0.8rem;
+}
+
+.footer-list ul li:first-child{
+    margin-bottom: 1.3rem;
+}
+
+.footer-list ul li a{
+    text-decoration: none;
+    font-size: 1.05rem;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.footer-list ul li a:hover{
+    color: #0070BB;
+}
+.footer-text p{
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    text-wrap: wrap; 
+    color: #00000080; 
+    line-height: 1rem;
+}
+.footer-text p a{
+    text-decoration: none;
+    color: #0070BB;
+}
+
+.footer-text p a:hover{
+    color: black;
+}
+.footer-links ul{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-links ul li {
+    list-style: none;
+}
+
+.footer-links ul li a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.85rem;
+}
+
+.footer-links ul li a:hover{
+    color: #0070BB;
+}
